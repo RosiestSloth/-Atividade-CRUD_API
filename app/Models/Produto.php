@@ -18,7 +18,7 @@ class Produto extends Model
         'created_by',
     ];
 
-    public function distribuidora() 
+    public function distribuidora()
     {
         return $this->belongsTo(Distribuidora::class);
     }
